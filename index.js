@@ -37,3 +37,4 @@ var crl = document.getElementById('myCrl').getContext('2d');
         crl3.linewidth = 5;
         crl3.strokeStyle = '#dbdbdb';
         crl3.stroke();
+

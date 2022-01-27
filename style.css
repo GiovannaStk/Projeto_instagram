@@ -51,11 +51,15 @@ body .page .container-info .img-profile {
   height: 175px;
   border: 0.5px solid #dbdbdb;
 }
-body .page .container-info .username {
+body .page .container-info .table-user {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+body .page .container-info .table-user .username {
   font-size: 28px;
   font-weight: 300;
 }
-body .page .container-info .button-edit {
+body .page .container-info .table-user .button-edit {
   color: black !important;
   font-size: 14px !important;
   font-weight: 600 !important;
@@ -78,7 +82,11 @@ body .page .container-info .name {
 body .page .container-info .profile-desc {
   font-size: 16px;
 }
-body .page .container-info .stories {
+body .page .container-info .list-title-stories {
+  padding-bottom: 40px;
+  padding-left: 12px;
+}
+body .page .container-info .list-title-stories .stories {
   text-align: center;
   font-weight: 600;
   font-size: 15px;
@@ -89,9 +97,10 @@ body .page .container-info .nav-feed {
   align-items: center;
   justify-content: center;
   padding-bottom: 15px;
+  gap: 10px;
 }
 body .page .container-info .nav-feed .nav-link1 {
-  color: #495057;
+  color: #a2a8af;
   background-color: #fafafa !important;
   border-color: gray #fafafa #fafafa !important;
   border-top-right-radius: 0rem !important;
@@ -101,6 +110,9 @@ body .page .container-info .nav-feed .nav-link1 {
 }
 body .page .container-info .nav-feed .nav-link1 i {
   padding-right: 5px;
+}
+body .page .container-info .nav-feed .nav-link1.active {
+  color: #495057;
 }
 body .page .container-info .nav-feed .nav-link2 {
   color: #a2a8af;
@@ -114,11 +126,17 @@ body .page .container-info .nav-feed .nav-link2 {
 body .page .container-info .nav-feed .nav-link2 i {
   padding-right: 5px;
 }
-body .page .container-info .card {
+body .page .container-info .nav-feed .nav-link2.active {
+  color: #495057;
+}
+body .page .container-info .tab {
+  padding-top: 10px;
+}
+body .page .container-info .tab .card {
   border: 0px solid rgba(0, 0, 0, 0.125) !important;
   border-radius: 0rem !important;
 }
-body .page .container-info .card .card-img-top {
+body .page .container-info .tab .card .card-img-top {
   border-top-left-radius: 0rem !important;
   border-top-right-radius: 0rem !important;
 }

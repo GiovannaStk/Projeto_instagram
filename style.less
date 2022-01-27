@@ -52,8 +52,7 @@ body{
             }
     
             }
-        }
-    
+        }   
         .container-info{
             .img-profile{
                 border-radius: 100%;
@@ -63,16 +62,23 @@ body{
                 height: 175px;
                 border: 0.5px solid #dbdbdb;
             }
-            .username{
-                font-size: 28px;
-                font-weight: 300;
+
+            .table-user{
+                padding-top: 20px;
+                padding-bottom: 10px;
+
+                .username{
+                    font-size: 28px;
+                    font-weight: 300;
+                }
+                .button-edit{
+                    color: black !important;
+                    font-size: 14px !important;
+                    font-weight: 600 !important;
+                    border-color: #dae1e7 !important;
+                }
             }
-            .button-edit{
-                color: black !important;
-                font-size: 14px !important;
-                font-weight: 600 !important;
-                border-color: #dae1e7 !important;
-            }
+          
             .btn{
                 padding: .100rem .50rem !important;
             }
@@ -90,30 +96,37 @@ body{
             .profile-desc{
                 font-size: 16px;
             }
-            .stories{
-                text-align: center;
-                font-weight: 600;
-                font-size: 15px;
-            }
+            .list-title-stories{
+                padding-bottom: 40px;
+                padding-left: 12px;
+                .stories{
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 15px;
+                }
+            }         
             .nav-feed{
                 border-bottom: none !important;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 padding-bottom: 15px;
+                gap: 10px;
                 .nav-link1{
-                    color: #495057;
+                    color: #a2a8af;
                     background-color: #fafafa !important;
                     border-color: gray #fafafa #fafafa !important;
                     border-top-right-radius: .0rem !important;
                     border-top-left-radius: .0rem !important;
                     font-size: 12px;
-                    font-weight: 600;
-                    
+                    font-weight: 600;                                     
                     i{
                         padding-right: 5px;
                     }
-                }
+                    &.active{
+                        color: #495057;
+                    }                    
+                }            
                 .nav-link2{
                     color: #a2a8af;
                     background-color: #fafafa !important;
@@ -125,19 +138,25 @@ body{
                     i{
                         padding-right: 5px;
                     }
+                    &.active{
+                        color: #495057;
+                    }
                 }
             }
 
-            .card{
-                border:0px solid rgba(0, 0, 0, .125) !important;
-                border-radius: .0rem !important;
-                .card-img-top{
-                    border-top-left-radius: 0rem !important;
-                    border-top-right-radius: 0rem !important;
+            .tab{
+                padding-top: 10px;
+
+                .card{
+                    border:0px solid rgba(0, 0, 0, .125) !important;
+                    border-radius: .0rem !important;
+                    .card-img-top{
+                        border-top-left-radius: 0rem !important;
+                        border-top-right-radius: 0rem !important;
+                    }
                 }
             }
-        }
-    
-    
+          
+        }        
     }
 }
