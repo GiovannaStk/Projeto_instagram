@@ -38,3 +38,6 @@ var crl = document.getElementById('myCrl').getContext('2d');
         crl3.strokeStyle = '#dbdbdb';
         crl3.stroke();
 
+ var link = document.getElementsByClassName('nav-link1')
+ var link2 = document.getElementsByClassName('nav-link2')
+       
